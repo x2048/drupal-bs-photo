@@ -1,5 +1,5 @@
-name = Photo (CDN Bootstrap Sub-Theme)
-description = Photoblog theme based on Bootstrap
+name = Photojournalist
+description = Responsive theme for a photo site (CDN Bootstrap Sub-Theme)
 core = 7.x
 base theme = bootstrap
 
