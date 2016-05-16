@@ -271,8 +271,6 @@ article footer { display:none; }
 @media (max-width: 991px) {
 	body{font-weight:300; font-size:13px/13px;}
 	.navbar-brand{padding-top: 11px;}
-	.navbar-collapse { background: #333; border-color:#666!important;	}
-	.navbar-nav { float:left; }
 	.page-taxonomy article.node { width:50%; font-size:2vw;}
 	.thumbnail .caption>h3 { font-size: 1.8vw; }
 	.x-videos .thumbnail .caption .play-btn, 
@@ -288,16 +286,15 @@ article footer { display:none; }
 
 @media (max-width: 767px) {
 	body{font-weight:300; font-size:12px/12px;}
-/*	h1{font-weight: 700; font-size: 3.5em;}*/
 	h2 {font-size:1.5em;}
 	h4 {font-weight: 300; font-size: 1.3em;}
 
 	.navbar-nav > li > a {line-height: 1em;}	
-	.navbar-brand{padding: 7px;}
+	.navbar-brand{padding: 7px;margin:0;float:left;}
 	.navbar-brand img{height: 37px;}
 	.navbar-toggle{margin-top: 12px;}
-	.navbar-nav{margin: 0;}
-	
+	.navbar-collapse { background: #333; border-color:#666!important;	}
+
 	a.skip-link { font-size:3vw; }
 
 	h2.text-center{text-align: left;font-size: 1.7em;}
