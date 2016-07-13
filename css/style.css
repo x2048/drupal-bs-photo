@@ -168,7 +168,7 @@ a.skip-link { position:absolute; bottom:15px;left:0;right:0;font-size:30px; font
 	text-transform: none;
 	text-shadow:none;color: #333;}
 .x-videos .thumbnail .caption .play-btn, .x-videos .thumbnail .caption .play-btn>a:hover{
-	font-size: 4vw;
+	font-size: 3.5vw;
 	text-shadow:0 0 6px #000;color: #eef;
 	position:absolute;top:0;left:0;right:0;margin:7vw;
 	text-align:center;display: block;
@@ -189,9 +189,9 @@ article.node-teaser div.field-item>a::after,.thumbnail>a::after,.thumbnail .fiel
 }
 
 article.node-teaser.node-video div.field-item>a::after {
-	content: "\e029";
+	content: "\e072";
 	font-family: "GLYPHICONS Halflings";
-	font-size: 4vw;
+	font-size: 3.5vw;
 	text-shadow:0 0 6px #000;color: #eef;
 	padding-top:5vw;
 	text-align:center;
