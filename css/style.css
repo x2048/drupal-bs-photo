@@ -55,6 +55,8 @@ p {font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 /* Navbar / Menu */
 
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {margin-right: 0px!important;}
+
 .navbar { margin-bottom: 0; position: absolute;width:100%; padding-left: 1em; font-stretch:semi-expanded; }
 .navbar-static-top { border: none !important; height: 7em;}
 .navbar-inverse { 
