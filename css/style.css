@@ -213,7 +213,7 @@ a.skip-link { position:absolute; bottom:15px;left:0;right:0;font-size:30px; font
 /* Teaser */
 article.node-teaser { position: relative; padding:1.5vw;}
 article.node-teaser div.field-item>a { display:block;position: relative; }
-article.node-teaser div.field-item>a>img { z-index:-2;}
+article.node-teaser div.field-item>a>img { z-index:-2;width: 100%;}
 article.node-teaser div.field-item>a::after,.thumbnail>a::after,.thumbnail .field-item>a::after { content: " "; display:block; position:absolute; z-index:0; 
     transition: all 500ms; background:rgba(0,0,0,0.3);top:0;bottom:0;left:0;right:0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0+1,0.03+26,0.4+71,0.5+100 */
@@ -287,7 +287,7 @@ body.node-type-instant-photo #block-views-page-header-1-block .views-field-title
 /* Page content */
 #block-system-main { padding:15px; margin: 2em auto;}
 article.node .field-name-body { max-width: 800px; margin:auto; padding:0; border: 0;overflow:hidden;position:relative; margin-bottom: 30px; text-align:justify;text-align-last: left;}
-article img { width: 100% }
+article img { max-width: 100%; margin: auto; display: block;}
 article header {margin: 0.5em 0;text-align:right;}
 article footer { display:none; }
 
